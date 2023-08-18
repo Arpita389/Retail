@@ -1,0 +1,83 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/008/149/436/non_2x/red-curve-on-a-gray-background-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.navbar h2 {
+  font-size: 14px;
+}
+.nav-icon {
+  max-width: 40px;
+}
+
+.content-section,
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3%;
+  margin-top: 2%;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.content-text,
+.section-content {
+  flex: 1;
+}
+.content-text h1 {
+  font-size: 36px;
+}
+.content-text p,
+.section-content p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.content-image img,
+.section-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+}
