@@ -19,7 +19,10 @@ Link:- https://github.com/Learus/react-material-ui-carousel
 For icons:<br>
 Link:- https://chakra-ui.com/docs/components/icon
 <br>
-npm code:<br> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+npm code:<br>
+```
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+```
 <hr>
 #Screenshots
 **Homepage**
