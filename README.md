@@ -39,7 +39,7 @@ Link:- https://chakra-ui.com/docs/components/icon
 npm code:<br>
 ```
 ***Chakra UI****<br>
-installation:-npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+installation:-npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion<br>
 ##***Tools****
 Html,Css,Java Script,React Js
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
