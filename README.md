@@ -9,8 +9,7 @@
 **Used UI**<br>
 Material UI-<br>
 Installation:<br>
-Default Instalation:<br>
-npm install @mui/material @emotion/react @emotion/styled
+Link:-https://mui.com/material-ui/getting-started/installation/#default-installation
 <hr>
 #Screenshots
 **Homepage**
