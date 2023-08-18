@@ -1,0 +1,212 @@
+{
+  "dress": [
+    {
+      "name": "kurti",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/dress/r/k/5/s-717-kushi-flyer-original-imagney9kqznux3d.jpeg?q=70",
+      "price": 379
+    },
+    {
+      "name": "simple-kurti",
+      "image": "https://rukminim2.flixcart.com/image/832/832/ktketu80/dress/x/z/c/m-western-dress-419-purvaja-original-imag6vwpjmtw4ejy.jpeg?q=70",
+      "price": 366
+    },
+    {
+      "name": "long-frok",
+      "image": "https://rukminim2.flixcart.com/image/832/832/krme93k0/dress/p/i/d/3xl-lucy-021022023-purvaja-original-imag5dfgzhsghtcz.jpeg?q=70",
+      "price": 388
+    },
+    {
+      "name": "white-kurti",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/n/w/g/l-ek-39-white-krifra-original-imagzr359ju4pvfs.jpeg?q=70",
+      "price": 294
+    },
+    {
+      "name": "jacket",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jacket/l/v/6/xl-mnt-7004-montrez-original-imagffv4bk5bkfpy-bb.jpeg?q=70",
+      "price": 690
+    },
+    {
+      "name": "formal-shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/b/d/f/3xl-13-lstr-wine-vtexx-original-imagnzbummhkgr7p.jpeg?q=70",
+      "price": 299
+    },
+    {
+      "name": "lather-jacket",
+      "image": "https://rukminim2.flixcart.com/image/832/832/khavrm80/jacket/3/u/m/m-1286-fk-breil-by-fort-collins-original-imafxc9wzz8afwjr.jpeg?q=70",
+      "price": 259
+    },
+    {
+      "name": "denim-jacket",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/z/q/e/xl-super-d-greenflair-original-imagzvuxy9dugj6u.jpeg?q=70",
+      "price": 305
+    }
+  ],
+  "jwellery": [
+    {
+      "name": "ring",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFnoSch0o4ue3EBZuZ9GuNcY04x4RDpLk2Mg&usqp=CAU",
+      "price": 173
+    },
+    {
+      "name": "plat-ring",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2021/2/OC/OD/AV/92549921/ring-12-1-250x250.jpg",
+      "price": 329
+    },
+    {
+      "name": "bracelet",
+      "image": "https://tiimg.tistatic.com/fp/1/007/861/-fancy-and-designer-jewellery-hallmarked-modern-ring-ladies-gold-ring-849.jpg",
+      "price": 199
+    },
+    {
+      "name": "necklace",
+      "image": "https://5.imimg.com/data5/ECOM/Default/2023/1/QC/TX/TY/76923980/ip-jw-fj-nk-107c-500x500.jpg",
+      "price": 249
+    },
+    {
+      "name": "mandraiee",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPSPdoHDUzJxNK8TYbmOVtzi0fgBgH-Mc8g&usqp=CAU",
+      "price": 284
+    },
+    {
+      "name": "simple-chain",
+      "image": "https://sencowebfiles.s3.ap-south-1.amazonaws.com/products/fwjU7nW0nhRUDYl1PEr2qhGYmtn00anwJ2nmDcM0.jpeg",
+      "price": 377
+    },
+    {
+      "name": "rani-hara",
+      "image": "https://www.wamanharipethesons.com/portalrepository/images/product/WHPS288752_0_r.jpg",
+      "price": 354
+    },
+    {
+      "name": "chain",
+      "image": "https://www.k4fashion.com/wp-content/uploads/2020/04/Light-Weight-Short-Gold-Necklace-Designs-8.jpg",
+      "price": 330
+    }
+  ],
+  "cosmetic": [
+    {
+      "name": "lakme",
+      "image": "https://rukminim2.flixcart.com/image/416/416/k547l3k0/eye-shadow/8/b/q/12-absolute-infinity-eye-shadow-palette-lakme-original-imafnv6c7fzhpyxz.jpeg?q=70",
+      "price": 777
+    },
+    {
+      "name": "lakme-soft",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/brush-applicator/a/e/j/makeup-head-wrap-face-pack-sponges-4-makeup-head-wrap-face-pack-original-imagghstxxfgnnxz.jpeg?q=70",
+      "price": 183
+    },
+    {
+      "name": "isha-puraskin",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/b/j/4/pure-skin-perfect-look-long-wear-mattifying-compact-snow-white-original-imagqghyszvncydq.jpeg?q=70",
+      "price": 486
+    },
+    {
+      "name": "fit me",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/m/t/e/makeup-combo-foundation-concealer-compact-loose-powder-original-imagpdayftatjxjv.jpeg?q=70",
+      "price": 269
+    },
+    {
+      "name": "valhalla",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/makeup-kit/v/b/u/12-items-makeup-kit-combo-face-makeup-combo-valhalla-original-imagzcxqstxgtzpg.jpeg?q=70",
+      "price": 314
+    },
+    {
+      "name": "lipstick",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/makeup-kit/r/w/m/unique-quality-makeup-kit-of-15-makeup-items-ad29-days-of-love-original-imaggwwggfzrnhns.jpeg?q=70",
+      "price": 352
+    },
+    {
+      "name": "foe-shader",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/s/r/9/6155-color-icon-makeup-kit-for-girls-7-pcs-makeup-brush-set-original-imagjdskeche9t8y.jpeg?q=70",
+      "price": 389
+    },
+    {
+      "name": "hydra",
+      "image": "https://rukminim2.flixcart.com/image/416/416/ky4qgsw0/combo-kit/c/f/7/fruit-facial-kit-210gm-and-hydra-moist-face-and-body-moisturizer-original-imagafg63fuz5pmp.jpeg?q=70",
+      "price": 489
+    }
+  ],
+  "watch": [
+    {
+      "name": "smart-watch",
+      "image": "https://www.gonoise.com/cdn/shop/products/2_2c9c710e-7661-43b9-bf1b-d931f88480fc_grande.png?v=1655378654",
+      "price": 1228
+    },
+    {
+      "name": "hrnt",
+      "image": "https://cdn.shopify.com/s/files/1/0997/6284/products/Black3_13603157-0081-4059-b731-05125bd86556.png",
+      "price": 1168
+    },
+    {
+      "name": "hmt",
+      "image": "https://www.boat-lifestyle.com/cdn/shop/products/main-image-3_e934902f-345b-4cc4-80b9-9ef3d77a1f34.png?v=1661272676",
+      "price": 1159
+    },
+    {
+      "name": "sonata",
+      "image": "https://media.istockphoto.com/id/471712723/photo/watch.jpg?s=612x612&w=0&k=20&c=iMEdtY6uP3iFURngL9qAzzMnWYSkPmHrxIlYIEfduvM=",
+      "price": 883
+    },
+    {
+      "name": "titanic",
+      "image": "https://img.freepik.com/free-photo/stylish-golden-watch-white-surface_181624-27078.jpg",
+      "price": 777
+    },
+    {
+      "name": "Rolex",
+      "image": "https://i.ebayimg.com/00/s/NjQwWDY0MA==/z/M~AAAOSwScxhknO1/$_57.JPG?set_id=8800005007",
+      "price": 1157
+    },
+    {
+      "name": "patek",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_e0eabbe4-939a-4eaf-a77d-e3244e267c3a",
+      "price": 674
+    },
+    {
+      "name": "Briteling",
+      "image": "https://citizenwatch.widen.net/content/mhlqwmksqr/png/Mickey+Classic.png?u=41zuoe&width=400&height=400&quality=80&crop=false&keep=c&color=FFFFFF00",
+      "price": 672
+    }
+  ],
+  "electronics": [
+    {
+      "name": "fridge",
+      "image": "https://jamesandco.in/cdn/shop/products/1051_c67af6fc-0963-4ca6-b33b-372226868f72_800x.jpg?v=1666344903",
+      "price": 12280
+    },
+    {
+      "name": "washing-machiene",
+      "image": "https://5.imimg.com/data5/XL/MI/MY-45738738/samsung-washing-machine.jpg",
+      "price": 11680
+    },
+    {
+      "name": "hiscence tv",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/ua32t4340akxxl/gallery/in-hd-tv-ua32t4340akxxl-front-black-537470101?$650_519_PNG$",
+      "price": 11590
+    },
+    {
+      "name": "samasung tv",
+      "image": "https://images.samsung.com/is/image/samsung/ph-hdtv-n4003-ua32n4003arxxp-frontblack-100425777?$650_519_PNG$",
+      "price": 18830
+    },
+    {
+      "name": "onida washing machiene",
+      "image": "https://www.westinghouse.com.au/remote.jpg.ashx?urlb64=aHR0cHM6Ly9yZXNvdXJjZS5lbGVjdHJvbHV4LmNvbS5hdS9wdWJsaWMvaW1hZ2UyL3Byb2R1Y3QvMTEyMDIwLzUyNTkzL1dILVByb2R1Y3Rab29tL3dhc2hpbmdfbWFjaGluZXNfd3d0ODA4NGo3d2FfZ2FsbGVyeV8xLnBuZw&hmac=8QlcaPDTQkM",
+      "price": 17770
+    },
+    {
+      "name": "iron",
+      "image": "https://cdn.shopify.com/s/files/1/0049/1005/5514/products/4eEUulPeErqPGe42QXzk3YPcCcSFaG4vdVB6rSX5_512x396.jpg?v=1603275300",
+      "price": 11570
+    },
+    {
+      "name": "crompton-iron",
+      "image": "https://www.crompton.co.in/wp-content/uploads/2019/07/3-15.png",
+      "price": 674
+    },
+    {
+      "name": "G-lg",
+      "image": "https://5.imimg.com/data5/SA/JZ/MX/SELLER-2694128/whirlpool-refrigerator-71229.jpg",
+      "price": 16720
+    }
+  ]
+}
