@@ -7,21 +7,25 @@
 <br>
 This is generally a website where one can buy the product . here we have provided clothing,jwellery,cosmetic,watch and electronics category.
 one can buy the product or add it in cart by clicking on add button.
-the pages we have made are-
+the pages we have made are-<br>
 #Homepage:-
 
 
 
+![Screenshot (49)](https://github.com/Arpita389/Retail/assets/130206432/d6c7eccf-0dcf-4026-8f99-b99f6d13520f)
+
+
+
+
+![Screenshot (50)](https://github.com/Arpita389/Retail/assets/130206432/06e5955a-af46-4744-be3e-ff3db55973ec)
 
 
 ![Screenshot (45)](https://github.com/Arpita389/Retail/assets/130206432/26e4c2fe-86d1-4cdb-99a7-f338568795a2)
+![Screenshot (51)](https://github.com/Arpita389/Retail/assets/130206432/0290d07c-19ec-4d75-bf74-f31b218d9d5f)
 
 ![Screenshot (33)](https://github.com/Arpita389/Retail/assets/130206432/6641e8a9-a825-4bc9-a813-46ad39c77840)
-
-
-
-
 About Page:-
+
 ![Screenshot (34)](https://github.com/Arpita389/Retail/assets/130206432/65ff7f03-9360-429e-b526-9041c2b9bcc3)
 
 
