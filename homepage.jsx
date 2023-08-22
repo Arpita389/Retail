@@ -14,7 +14,7 @@ function HomePage() {
           <img src={icon2} alt="Icon" />
         </div>
         <div className="logo">
-          <h2>Pragati</h2>
+          <h2>Pravrtii</h2>
         </div>
         <div className="nav-links">
           <Link to={"/"}>Home</Link>
