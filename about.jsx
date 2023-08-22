@@ -9,25 +9,26 @@ import insta from "../images/insta.png";
 import twitter from "../images/twitter.png";
 import HomePage from "../homepage/homepage";
 import Contact from "../contact/contact";
-import SignUpForm from "../login/signup";
+import SignUp from "../login/testsignup";
+
 function About() {
   return (
     <div className="about-container">
-      <nav>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/about"}>About page</Link>
-        <Link to={"/contact"}>Contact us</Link>
-        <Link to={"/signup"}>Login</Link>
+      <nav className="about-nav">
+        <Link to="/">Home</Link>
+        <Link to="/about">About Page</Link>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/testsignup">Sign Up</Link>
       </nav>
-      <h1>About us</h1>
+      <h1>About Us</h1>
       <div className="about-content">
         <div className="about-card">
           <h4>Our Vision</h4>
           <img src={vision} alt="Vision" />
           <p>
             A clear vision statement articulates the long-term goals and core
-            values of your company. It guides your business strategy and shapes
-            your online presence to align with your vision.
+            values of your company and helps bussiness skill ,shapes your online presence to align with
+            your vision.
           </p>
         </div>
         <div className="about-card">
