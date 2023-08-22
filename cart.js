@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./cart.css";
+
 function CartPage() {
   const [cartItems, setCartItems] = useState([]);
 
@@ -23,7 +23,7 @@ function CartPage() {
       );
       const data = await response.json();
       console.log(data);
-      getCartItems(); 
+      getCartItems(); // Refresh the cart items after deleting
     } catch (error) {
       console.log(error);
     }
@@ -37,10 +37,10 @@ function CartPage() {
     <div>
       <h2>Cart Items</h2>
       <ul>
-        {cartItems.map((item, index) => (
-          <li key={index}>
+        {cartItems.map((item) => (
+          <li key={item.id}>
             {item}
-            <button id="cart-button" onClick={() => handleDeleteItem(item)}>Delete</button>
+            <button onClick={() => handleDeleteItem(item)}>Delete</button>
           </li>
         ))}
       </ul>
