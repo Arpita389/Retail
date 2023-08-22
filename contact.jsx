@@ -11,7 +11,7 @@ function Contact() {
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About us</Link>
         <Link to={"/contact"}>Contact us</Link>
-        <Link to={"/signup"}>Login</Link>
+        <Link to={"/testsignup"}>Sign Up</Link>
       </nav>
 
       <div className="container">
