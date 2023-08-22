@@ -12,9 +12,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./homepage.css";
 import About from "../about/about";
 import Contact from "../contact/contact";
-import SignUpForm from "../login/signup";
+import SignIn from "../login/testsignin";
 import icon2 from "../images/icon1.png";
-
+import SignUp from "../login/testsignup";
 const theme = extendTheme({
   fonts: {
     heading: "Montserrat, sans-serif",
@@ -31,17 +31,17 @@ function Home() {
             <img src={icon2} alt="Icon" />
           </div>
           <div className="logo">
-            <h2>Pragati</h2>
+            <h1>Pravrtti</h1>
           </div>
           <div className="nav-links">
             <Link to={"/"}>Home</Link>
             <Link to={"/about"}>About</Link>
             <Link to={"/contact"}>Contact</Link>
-            <Link to={"/signup"}>Login</Link>
+            <Link to={"/testsignup"}>Sign Up</Link>
+            <Link to={"/testsignin"}>Sign In</Link>
           </div>
         </nav>
 
-        {/* Carousel */}
         <Box w="100%" mt="4">
           <Carousel
             infiniteLoop
@@ -63,7 +63,7 @@ function Home() {
             </div>
             <div>
               <Image
-                src="https://www.inventiva.co.in/wp-content/uploads/2022/10/Top-10-Clothing-Brand-Main-Banner-780x470.jpeg"
+                src="https://c1.wallpaperflare.com/preview/1017/473/68/clothing-store-shop-boutique-men-s-fashion.jpg"
                 alt="Carousel Image 2"
                 h="600px"
                 objectFit="cover"
@@ -74,7 +74,7 @@ function Home() {
             </div>
             <div>
               <Image
-                src="https://dcassetcdn.com/design_img/3012877/441657/441657_16639555_3012877_69d35617_image.jpg"
+                src="https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Carousel Image 2"
                 h="600px"
                 objectFit="cover"
@@ -85,7 +85,7 @@ function Home() {
             </div>
             <div>
               <Image
-                src="https://img.freepik.com/free-vector/cosmetic-products-realistic-advertisement-template_1284-23472.jpg?w=2000"
+                src="https://images-na.ssl-images-amazon.com/images/I/71TGueJYpNL.jpg"
                 alt="Carousel Image 2"
                 h="600px"
                 objectFit="cover"
@@ -107,7 +107,7 @@ function Home() {
             </div>
             <div>
               <Image
-                src="https://image.cnbcfm.com/api/v1/image/107276375-1690302733768-Self-Checkout_Blinded_2.png?v=1690891535&w=1920&h=1080"
+                src="https://static-assets.business.amazon.com/assets/in/24th-jan/705_Website_Blog_Appliances_1450x664.jpg.transform/1450x664/image.jpg"
                 alt="Carousel Image 2"
                 h="600px"
                 objectFit="cover"
@@ -116,7 +116,6 @@ function Home() {
                 Carousel Image 6
               </Text>
             </div>
-            {/* Add more carousel items as needed */}
           </Carousel>
         </Box>
 
@@ -174,9 +173,25 @@ function Home() {
             </p>
           </div>
         </div>
-
+        
+        <div className="section">
+          <div className="section-content">
+          <p>
+            Some feature of our website.<br />
+            <Link to="/usertype">
+              <button id="home-button">Join with us</button>
+            </Link>
+          </p>
+          </div>
+          <div className="section-image">
+            <img
+              src="https://cedcommerce.com/blog/wp-content/uploads/2018/12/Must-Have-Features-For-Your-Ecommerce-Website-732x244.png"
+              alt="Image"
+            />
+          </div>
+        </div>
         <footer>
-          <p>&copy; 2023 One Step. All rights reserved.</p>
+          <p>&copy; 2023 Pravrtti. All rights reserved.</p>
         </footer>
       </div>
     </ChakraProvider>
