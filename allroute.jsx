@@ -14,6 +14,7 @@ import Payment from "./testpay";
 import UserTypeSelection from "../homepage/usertype";
 import ShopOwnerPage from "../homepage/shopowner";
 import SingleUserPage from "../homepage/signleuser";
+import AdminPage from "../login/admin";
 function Allroute() {
   return (
     <Routes>
@@ -24,6 +25,7 @@ function Allroute() {
       <Route path="/testsignin" element={<SignIn />} />
       <Route path="/testsignup/testsignin" element={<SignIn />} />
       <Route path="/cart" element={<CartPage />} />
+      <Route path="/admin" element={<AdminPage />} />
       <Route path="/menu/menupage" element={<Menupage />} />
       <Route path="/menu/menupage/testpay" element={<Payment/>} />
       <Route path="/login/submit" element={<Submit />} />
