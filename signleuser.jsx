@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+//import "./signleuser.css";
 import {
   ChakraProvider,
   extendTheme,
@@ -69,11 +70,18 @@ function SingleUserPage() {
   return (
     <ChakraProvider theme={theme}>
       <Flex
+        style={{
+          backgroundImage:
+            'url("https://static.vecteezy.com/system/resources/previews/002/623/464/original/concept-of-shopping-online-with-smart-phone-on-blue-sky-background-vector.jpg")',
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
         direction="column"
         align="center"
         p={10}
         border="1px solid #ddd"
         backgroundColor="#f9f9f9"
+        minH="100vh"
       >
         <nav
           style={{
