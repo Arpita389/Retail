@@ -43,7 +43,13 @@ p {
 .nav-icon {
   max-width: 40px;
 }
-
+.logo h1 {
+  font-size: 2rem;
+}
+.logo h1::first-letter {
+  color: coral;
+  font-size: 3rem;
+}
 .content-section,
 .section {
   display: flex;
@@ -54,6 +60,12 @@ p {
   padding: 2%;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+#home-button {
+  border: 1px solid grey;
+  color: white;
+  background-color: green;
+  border-radius: 5%;
 }
 .content-text,
 .section-content {
@@ -73,11 +85,56 @@ p {
   height: auto;
 }
 
+/* ... other CSS rules ... */
+
 footer {
   text-align: center;
-  padding: 10px 0;
-  border-top: 1px solid grey;
-  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 0;
+  border-top: 1px solid #ddd;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   font-size: 18px;
+  position: relative;
+}
+
+#footer-part {
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+#footer-part h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: coral;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.profile-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#profile h5 {
+  color: black;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#page h1, #product h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#page p, #product p {
+  font-size: 14px;
+  margin: 5px 0;
 }
