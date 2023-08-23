@@ -38,23 +38,43 @@ app.delete("/api/cart/:itemName", (req, res) => {
 });
 app.post("/api/signup", (req, res) => {
   const { username, password } = req.body;
-  if (username && password && !users.some((user) => user.username === username)) {
+  if (
+    username &&
+    password &&
+    !users.some((user) => user.username === username)
+  ) {
     users.push({ username, password });
     res.json({ message: "User registered successfully." });
   } else {
-    res.status(400).json({ error: "Invalid request or username already taken." });
+    res
+      .status(400)
+      .json({ error: "Invalid request or username already taken." });
   }
+});
+app.get("/api/users", (req, res) => {
+  res.json(users);
 });
 app.post("/api/signin", (req, res) => {
   const { username, password } = req.body;
-  const user = users.find((user) => user.username === username && user.password === password);
+  const user = users.find(
+    (user) => user.username === username && user.password === password
+  );
   if (user) {
     res.json({ message: "Logged in successfully." });
   } else {
     res.status(401).json({ error: "Invalid credentials." });
   }
 });
-
+app.delete("/api/users/:username", (req, res) => {
+  const { username } = req.params;
+  const index = users.findIndex((user) => user.username === username);
+  if (index !== -1) {
+    users.splice(index, 1);
+    res.json({ message: "User deleted successfully" });
+  } else {
+    res.status(404).json({ error: "User not found" });
+  }
+});
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
