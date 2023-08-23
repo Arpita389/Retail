@@ -15,6 +15,8 @@ import Contact from "../contact/contact";
 import SignIn from "../login/testsignin";
 import icon2 from "../images/icon1.png";
 import SignUp from "../login/testsignup";
+import me from "../images/me.jpg";
+import arpita from "../images/arpita.jpeg";
 const theme = extendTheme({
   fonts: {
     heading: "Montserrat, sans-serif",
@@ -39,6 +41,7 @@ function Home() {
             <Link to={"/contact"}>Contact</Link>
             <Link to={"/testsignup"}>Sign Up</Link>
             <Link to={"/testsignin"}>Sign In</Link>
+            <Link to={"/admin"}>Admin Sign In</Link>
           </div>
         </nav>
 
@@ -173,15 +176,16 @@ function Home() {
             </p>
           </div>
         </div>
-        
+
         <div className="section">
           <div className="section-content">
-          <p>
-            Some feature of our website.<br />
-            <Link to="/usertype">
-              <button id="home-button">Join with us</button>
-            </Link>
-          </p>
+            <p>
+              Some feature of our website.
+              <br />
+              <Link to="/usertype">
+                <button id="home-button">Join with us</button>
+              </Link>
+            </p>
           </div>
           <div className="section-image">
             <img
@@ -191,7 +195,52 @@ function Home() {
           </div>
         </div>
         <footer>
-          <p>&copy; 2023 Pravrtti. All rights reserved.</p>
+          <p>&copy; 2023 Pravrtti. All rights reserved. 🌟</p>
+          <div id="footer-part">
+            <div id="profile">
+              <h1>Pravrtti</h1>
+              <h5>
+                <span role="img" aria-label="sparkles">
+                  ✨
+                </span>{" "}
+                Expert in providing <br /> Best Design's collection!!!{" "}
+                <span role="img" aria-label="sparkles">
+                  ✨
+                </span>
+              </h5>
+              <div className="profile-info">
+                <div className="profile-image">
+                  <img src={me} alt="Dhanada Panda" />
+                </div>
+                <p>Dhanada Panda 🙋‍♀️</p>
+              </div>
+              <div className="profile-info">
+                <div className="profile-image">
+                  <img src={arpita} alt="Dhanada Panda" />
+                </div>
+                <p>Arpita Mohapatra 🙋‍♀️</p>
+              </div>
+            </div>
+            <div id="page">
+              <h1>Pages</h1>
+              <p>Home 🏠</p>
+              <p>About us ℹ️</p>
+              <p>Contact us 📞</p>
+              <p>Sign up 📝</p>
+              <p>Sign in 🔑</p>
+              <p>Admin 👑</p>
+              <p>product 🛍️</p>
+              <p>join with us 🤝</p>
+            </div>
+            <div id="product">
+              <h1>Category</h1>
+              <p>Dress 👗</p>
+              <p>Jewelry 💍</p>
+              <p>Cosmetics 💄</p>
+              <p>Watch ⌚</p>
+              <p>Electronic 📱</p>
+            </div>
+          </div>
         </footer>
       </div>
     </ChakraProvider>
