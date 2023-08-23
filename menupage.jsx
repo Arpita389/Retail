@@ -12,6 +12,18 @@ function Menupage() {
   const [addedItems, setAddedItems] = useState([]);
   const [cartItems, setCartItems] = useState([]);
   const [state, setState] = useState(false);
+  const [sortingOrder, setSortingOrder] = useState(null);
+  const [quantities, setQuantities] = useState({});
+
+  const handleSorting = (order) => {
+    setSortingOrder(order);
+  };
+  const handleQuantityChange = (item, quantity) => {
+    setQuantities((prevQuantities) => ({
+      ...prevQuantities,
+      [item.name]: quantity,
+    }));
+  };
   const [obj, setObj] = useState({
     dress: false,
     jwellery: false,
@@ -189,6 +201,15 @@ function Menupage() {
     getdata5();
     getCartItems();
   }, [state]);
+  useEffect(() => {
+    const sortedAddedItems = [...addedItemsList];
+    if (sortingOrder === "lowToHigh") {
+      sortedAddedItems.sort((a, b) => a.price - b.price);
+    } else if (sortingOrder === "highToLow") {
+      sortedAddedItems.sort((a, b) => b.price - a.price);
+    }
+    setAddedItemsList(sortedAddedItems);
+  }, [state, sortingOrder]);
 
   return (
     <div className="menu-container">
@@ -201,68 +222,116 @@ function Menupage() {
             {el}
           </button>
         ))}
+        <button onClick={() => handleSorting("lowToHigh")}>Low to High</button>
+        <button onClick={() => handleSorting("highToLow")}>High to Low</button>
+        <button onClick={() => handleSorting(null)}>Clear Sorting</button>
       </div>
       <div className="parent_menu">
         {obj.dress === true &&
-          showfarr.map((el) => (
-            <div id="child_menu1" key={el.id}>
-              <Cardt
-                title={el.name}
-                imgsrc={el.image}
-                body={el.price}
-                onAddToCart={() => addToCart(el.name)}
-                isAdded={addedItems.includes(el.name)}
-              />
-            </div>
-          ))}
+          showfarr
+            .slice()
+            .sort((a, b) =>
+              sortingOrder === "lowToHigh"
+                ? a.price - b.price
+                : sortingOrder === "highToLow"
+                ? b.price - a.price
+                : 0
+            )
+            .map((el) => (
+              <div id="child_menu1" key={el.id}>
+                <Cardt
+                  title={el.name}
+                  imgsrc={el.image}
+                  body={el.price}
+                  onAddToCart={() => addToCart(el.name, quantities[el.name])}
+                  isAdded={addedItems.includes(el.name)}
+                ></Cardt>
+              </div>
+            ))}
         {obj.jwellery === true &&
-          showsarr.map((el) => (
-            <div id="child_menu1" key={el.id}>
-              <Cardt
-                title={el.name}
-                imgsrc={el.image}
-                body={el.price}
-                onAddToCart={() => addToCart(el.name)}
-                isAdded={addedItems.includes(el.name)}
-              />
-            </div>
-          ))}
+          showsarr
+            .slice()
+            .sort((a, b) =>
+              sortingOrder === "lowToHigh"
+                ? a.price - b.price
+                : sortingOrder === "highToLow"
+                ? b.price - a.price
+                : 0
+            )
+            .map((el) => (
+              <div id="child_menu1" key={el.id}>
+                <Cardt
+                  title={el.name}
+                  imgsrc={el.image}
+                  body={el.price}
+                  onAddToCart={() => addToCart(el.name)}
+                  isAdded={addedItems.includes(el.name)}
+                />
+              </div>
+            ))}
         {obj.cosmetic === true &&
-          showtarr.map((el) => (
-            <div id="child_menu1" key={el.id}>
-              <Cardt
-                title={el.name}
-                imgsrc={el.image}
-                body={el.price}
-                onAddToCart={() => addToCart(el.name)}
-                isAdded={addedItems.includes(el.name)}
-              />
-            </div>
-          ))}
+          showtarr
+            .slice()
+            .sort((a, b) =>
+              sortingOrder === "lowToHigh"
+                ? a.price - b.price
+                : sortingOrder === "highToLow"
+                ? b.price - a.price
+                : 0
+            )
+            .map((el) => (
+              <div id="child_menu1" key={el.id}>
+                <Cardt
+                  title={el.name}
+                  imgsrc={el.image}
+                  body={el.price}
+                  onAddToCart={() => addToCart(el.name)}
+                  isAdded={addedItems.includes(el.name)}
+                />
+              </div>
+            ))}
         {obj.watch === true &&
-          showfoarr.map((el) => (
-            <div id="child_menu1" key={el.id}>
-              <Cardt
-                title={el.name}
-                imgsrc={el.image}
-                body={el.price}
-                onAddToCart={() => addToCart(el.name)}
-                isAdded={addedItems.includes(el.name)}
-              />
-            </div>
-          ))}
+          showfoarr
+            .slice()
+            .sort((a, b) =>
+              sortingOrder === "lowToHigh"
+                ? a.price - b.price
+                : sortingOrder === "highToLow"
+                ? b.price - a.price
+                : 0
+            )
+            .map((el) => (
+              <div id="child_menu1" key={el.id}>
+                <Cardt
+                  title={el.name}
+                  imgsrc={el.image}
+                  body={el.price}
+                  onAddToCart={() => addToCart(el.name)}
+                  isAdded={addedItems.includes(el.name)}
+                />
+              </div>
+            ))}
         {obj.electronics === true &&
-          showfiarr.map((el) => (
-            <div id="child_menu5" key={el.id}>
-              <Cardt
-                title={el.name}
-                imgsrc={el.image}
-                body={el.price}
-                onAddToCart={() => addToCart(el.name)}
-                isAdded={addedItems.includes(el.name)}
-              />
-            </div>
-          ))}
+          showfiarr
+            .slice()
+            .sort((a, b) =>
+              sortingOrder === "lowToHigh"
+                ? a.price - b.price
+                : sortingOrder === "highToLow"
+                ? b.price - a.price
+                : 0
+            )
+            .map((el) => (
+              <div id="child_menu5" key={el.id}>
+                <Cardt
+                  title={el.name}
+                  imgsrc={el.image}
+                  body={el.price}
+                  onAddToCart={() => addToCart(el.name)}
+                  isAdded={addedItems.includes(el.name)}
+                />
+              </div>
+            ))}
       </div>
       {showAddedItems && (
         <div className="added-items">
