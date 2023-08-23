@@ -57,6 +57,13 @@ function ShopOwnerPage() {
   return (
     <ChakraProvider theme={theme}>
       <Flex
+        style={{
+          backgroundImage:
+            'url("https://img.freepik.com/premium-photo/shopping-banner-with-shopping-bags-gift-boxes-3d-render-illustration-perfect-shopping-banner_7209-503.jpg?w=2000")',
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          minHeight: "100vh",
+        }}
         direction="column"
         align="center"
         p={10}
