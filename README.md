@@ -63,10 +63,10 @@ people can see rating and review of other user.
 **Wislist page:-**
 user can save a product in wishlist part.
 ![Screenshot (70)](https://github.com/Arpita389/Retail/assets/130206432/cc95f93d-0dd6-4eb4-9beb-3dd3afba7182)
-**To buy a item:-**
-![Screenshot (59)](https://github.com/Arpita389/Retail/assets/130206432/2f1e13d7-8b9a-49eb-af63-e4eca8eb7a3e)
 **Large Screen:-**
 ![Screenshot (74)](https://github.com/Arpita389/Retail/assets/130206432/c9f7b31c-acf1-4e35-99ea-b490bf774379)
+**To buy a item:-**
+![Screenshot (59)](https://github.com/Arpita389/Retail/assets/130206432/2f1e13d7-8b9a-49eb-af63-e4eca8eb7a3e)
 **Payment Page:-**
 here user can pay part of price in online and rest part they can pay as cash on delivery and they dont do this the he/she will nit get the product..
 ![Screenshot (60)](https://github.com/Arpita389/Retail/assets/130206432/c0b1d6fb-c3a0-422e-b798-dad13e036bd4)
