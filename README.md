@@ -32,26 +32,41 @@ here if a shop-owner want to sell their product they then can register and accor
 **Contact Page:-**
 Contact number,account is provided for user.
 ![Screenshot (35)](https://github.com/Arpita389/Retail/assets/130206432/f53b2f3f-c8f7-4e36-8cb3-bc47c7c5d299)
-**Sign Page:-**
+**Sign Up Page:-**
 here user can create an account in our website.
 ![Screenshot (53)](https://github.com/Arpita389/Retail/assets/130206432/2a719c4e-ef8a-482b-ae16-94efa13cf6d8)
 **Signin page:-**
 ![Screenshot (54)](https://github.com/Arpita389/Retail/assets/130206432/dac9f119-349e-48e1-aaa4-d14d0bf80cee)
+**Landing page:-**
+here people can see uniqueness of our website and can subscbscibe in our website.
+![Screenshot (66)](https://github.com/Arpita389/Retail/assets/130206432/7cc2b0d6-3173-4d23-9d4a-4cf551946e11)
 **Menu Page:-**
-![Screenshot (56)](https://github.com/Arpita389/Retail/assets/130206432/e1992c36-7a57-4a9b-8d6c-68866a05cee5)
-![Screenshot (37)](https://github.com/Arpita389/Retail/assets/130206432/d2d6e431-6e30-4da0-8617-229ecf6145d4)
-![Screenshot (38)](https://github.com/Arpita389/Retail/assets/130206432/0c830abf-54b7-40b6-af22-c09d6b599b54)
-![Screenshot (39)](https://github.com/Arpita389/Retail/assets/130206432/66faf8ab-24db-495d-b047-9690fbcd0657)
-![Screenshot (40)](https://github.com/Arpita389/Retail/assets/130206432/907dcaf8-a880-4951-8dde-f6ec17f4802c)
+here go to cart, wishlisted item and review rating part is present and also recommonded product also displayed.
+![Screenshot (67)](https://github.com/Arpita389/Retail/assets/130206432/30160faf-0c0d-4709-ae99-79bf9e7a4afd)
+Dress-category:-
+![Screenshot (71)](https://github.com/Arpita389/Retail/assets/130206432/5f7fd09a-d3d8-413d-bd40-3e54b008b74c)
+jwellery category:-
+![Screenshot (72)](https://github.com/Arpita389/Retail/assets/130206432/be87c7ee-a440-4095-96e5-16844e79e0e3)
+watch-category:-
+here i have given share option also.
+![Screenshot (73)](https://github.com/Arpita389/Retail/assets/130206432/92f600ab-8508-4f13-8a98-75502b73f68c)
+cosmetic category:-
+![Screenshot (68)](https://github.com/Arpita389/Retail/assets/130206432/1156d972-70c1-44d6-b1ef-fbb40d47d3f9)
 **Item added to cart:-**
 here item is added in cart and we can delete also from the cart..
 ![Screenshot (41)](https://github.com/Arpita389/Retail/assets/130206432/f87d2b97-eb8c-4144-ab38-9c7039cbb607)
 ![Screenshot (57)](https://github.com/Arpita389/Retail/assets/130206432/25fdb85e-4c9f-4828-bedf-73d3e6e795de)
 ![Screenshot (58)](https://github.com/Arpita389/Retail/assets/130206432/98ac009e-f0fe-4120-9d28-a24b218805e3)
+**Rating and Review:-**
+people can see rating and review of other user.
+![Screenshot (69)](https://github.com/Arpita389/Retail/assets/130206432/a435587d-1310-4efe-8ba7-8aef31aef86c)
+**Wislist page:-**
+user can save a product in wishlist part.
+![Screenshot (70)](https://github.com/Arpita389/Retail/assets/130206432/cc95f93d-0dd6-4eb4-9beb-3dd3afba7182)
 **To buy a item:-**
 ![Screenshot (59)](https://github.com/Arpita389/Retail/assets/130206432/2f1e13d7-8b9a-49eb-af63-e4eca8eb7a3e)
-
-
+**Large Screen:-**
+![Screenshot (74)](https://github.com/Arpita389/Retail/assets/130206432/c9f7b31c-acf1-4e35-99ea-b490bf774379)
 **Payment Page:-**
 here user can pay part of price in online and rest part they can pay as cash on delivery and they dont do this the he/she will nit get the product..
 ![Screenshot (60)](https://github.com/Arpita389/Retail/assets/130206432/c0b1d6fb-c3a0-422e-b798-dad13e036bd4)
