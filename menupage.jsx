@@ -3,6 +3,8 @@ import Cardt from "./card";
 import "./menupage.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { FaSortAmountDown, FaSortAmountUp, FaTimes } from "react-icons/fa";
+import RecommendedItems from "./reco";
 function Menupage() {
   const [showfarr, setShowfarr] = useState([]);
   const [showsarr, setShowsarr] = useState([]);
@@ -25,14 +27,46 @@ function Menupage() {
     }));
   };
   const [obj, setObj] = useState({
-    dress: false,
-    jwellery: false,
-    cosmetic: false,
-    watch: false,
-    electronics: false,
+    Dress: false,
+    Jwellery: false,
+    Cosmetic: false,
+    Watch: false,
+    Electronics: false,
   });
-  const button = ["dress", "jwellery", "cosmetic", "watch", "electronics"];
-
+  const recommendedItems = [
+    {
+      id: 1,
+      name: "Dress",
+      category: "Dress",
+      image:
+        "https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMGRyZXNzfGVufDB8fDB8fHww&w=1000&q=80",
+      price: 350,
+    },
+    {
+      id: 2,
+      name: "Jwellery",
+      category: "Jwellery",
+      image:
+        "https://images.fineartamerica.com/images-medium-large/bridal-power-ambreen-jamil.jpg",
+      price: 13330,
+    },
+    {
+      id: 3,
+      name: "Electronics",
+      category: "Electronics",
+      image:
+        "https://5.imimg.com/data5/ANDROID/Default/2023/1/DO/WO/NX/63182719/product-jpeg-500x500.jpg",
+      price: 11240,
+    },
+  ];
+  const button = ["Dress", "Jwellery", "Cosmetic", "Watch", "Electronics"];
+  const categoryDiscounts = {
+    Dress: 10,
+    Jwellery: 5,
+    Cosmetic: 15,
+    Watch: 8,
+    Electronics: 12,
+  };
   const getdata1 = async () => {
     try {
       const res = await fetch(
@@ -192,7 +226,6 @@ function Menupage() {
       console.log(error);
     }
   };
-
   useEffect(() => {
     getdata1();
     getdata2();
@@ -212,9 +245,23 @@ function Menupage() {
   }, [state, sortingOrder]);
 
   return (
-    <div className="menu-container">
+    <div
+      className="menu-container"
+      style={{
+        backgroundImage: `url("https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg")`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        height: "100vh",
+      }}
+    >
       <Link to="/cart" className="cart-link">
         Go to Cart
+      </Link>
+      <Link to="/wishlist" className="cart-link">
+        See Your Wishlisted Item
+      </Link>
+      <Link to="/reviewrating" className="cart-link">
+        rating and review page
       </Link>
       <div className="button-container">
         {button.map((el) => (
@@ -222,12 +269,24 @@ function Menupage() {
             {el}
           </button>
         ))}
-        <button onClick={() => handleSorting("lowToHigh")}>Low to High</button>
-        <button onClick={() => handleSorting("highToLow")}>High to Low</button>
-        <button onClick={() => handleSorting(null)}>Clear Sorting</button>
+        <button onClick={() => handleSorting("lowToHigh")}>
+          <FaSortAmountUp />
+        </button>
+        <button onClick={() => handleSorting("highToLow")}>
+          <FaSortAmountDown />
+        </button>
+        <button onClick={() => handleSorting(null)}>
+          <FaTimes />
+        </button>
       </div>
+      {/*<RecommendedItems
+        recommendedItems={recommendedItems}
+        categoryDiscounts={categoryDiscounts}
+        addToCart={addToCart}
+        addedItems={addedItems}
+      />*/}
       <div className="parent_menu">
-        {obj.dress === true &&
+        {obj.Dress === true &&
           showfarr
             .slice()
             .sort((a, b) =>
@@ -242,13 +301,15 @@ function Menupage() {
                 <Cardt
                   title={el.name}
                   imgsrc={el.image}
-                  body={el.price}
+                  body={Math.round(
+                    el.price * (1 - categoryDiscounts["Dress"] / 100)
+                  )}
                   onAddToCart={() => addToCart(el.name, quantities[el.name])}
                   isAdded={addedItems.includes(el.name)}
                 ></Cardt>
               </div>
             ))}
-        {obj.jwellery === true &&
+        {obj.Jwellery === true &&
           showsarr
             .slice()
             .sort((a, b) =>
@@ -263,13 +324,15 @@ function Menupage() {
                 <Cardt
                   title={el.name}
                   imgsrc={el.image}
-                  body={el.price}
+                  body={Math.round(
+                    el.price * (1 - categoryDiscounts["Jwellery"] / 100)
+                  )}
                   onAddToCart={() => addToCart(el.name)}
                   isAdded={addedItems.includes(el.name)}
                 />
               </div>
             ))}
-        {obj.cosmetic === true &&
+        {obj.Cosmetic === true &&
           showtarr
             .slice()
             .sort((a, b) =>
@@ -284,13 +347,15 @@ function Menupage() {
                 <Cardt
                   title={el.name}
                   imgsrc={el.image}
-                  body={el.price}
+                  body={Math.round(
+                    el.price * (1 - categoryDiscounts["Cosmetic"] / 100)
+                  )}
                   onAddToCart={() => addToCart(el.name)}
                   isAdded={addedItems.includes(el.name)}
                 />
               </div>
             ))}
-        {obj.watch === true &&
+        {obj.Watch === true &&
           showfoarr
             .slice()
             .sort((a, b) =>
@@ -305,13 +370,15 @@ function Menupage() {
                 <Cardt
                   title={el.name}
                   imgsrc={el.image}
-                  body={el.price}
+                  body={Math.round(
+                    el.price * (1 - categoryDiscounts["Watch"] / 100)
+                  )}
                   onAddToCart={() => addToCart(el.name)}
                   isAdded={addedItems.includes(el.name)}
                 />
               </div>
             ))}
-        {obj.electronics === true &&
+        {obj.Electronics === true &&
           showfiarr
             .slice()
             .sort((a, b) =>
@@ -326,13 +393,21 @@ function Menupage() {
                 <Cardt
                   title={el.name}
                   imgsrc={el.image}
-                  body={el.price}
+                  body={Math.round(
+                    el.price * (1 - categoryDiscounts["Electronics"] / 100)
+                  )}
                   onAddToCart={() => addToCart(el.name)}
                   isAdded={addedItems.includes(el.name)}
                 />
               </div>
             ))}
       </div>
+      <RecommendedItems
+        recommendedItems={recommendedItems}
+        categoryDiscounts={categoryDiscounts}
+        addToCart={addToCart}
+        addedItems={addedItems}
+      />
       {showAddedItems && (
         <div className="added-items">
           <h2>Added Items</h2>
