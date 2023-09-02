@@ -101,7 +101,7 @@ function SingleUserPage() {
         <Text fontSize="xl" mb={6}>
           Register Yourself to sell with us
         </Text>
-        <Stack spacing={4}>
+        <Stack spacing={4} style={{ backgroundColor: "#ffffff98", padding: "5px" }}>
           <Input
             size="sm"
             placeholder="Name"
