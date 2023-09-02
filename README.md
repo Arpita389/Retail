@@ -7,40 +7,52 @@
 <br>
 This is generally a website where one can buy the product . here we have provided clothing,jwellery,cosmetic,watch and electronics category.
 one can buy the product or add it in cart by clicking on add button.
-the pages we have made are-<br>
-#Homepage:-
+the pages we have made are-
+<br>
+<br/>
+**Homepage:-**
 
 ![Screenshot (49)](https://github.com/Arpita389/Retail/assets/130206432/d6c7eccf-0dcf-4026-8f99-b99f6d13520f)
 ![Screenshot (50)](https://github.com/Arpita389/Retail/assets/130206432/06e5955a-af46-4744-be3e-ff3db55973ec)
 ![Screenshot (45)](https://github.com/Arpita389/Retail/assets/130206432/26e4c2fe-86d1-4cdb-99a7-f338568795a2)
 ![Screenshot (51)](https://github.com/Arpita389/Retail/assets/130206432/0290d07c-19ec-4d75-bf74-f31b218d9d5f)
 ***Footer:-***
+<br>
 ![Screenshot (52)](https://github.com/Arpita389/Retail/assets/130206432/ac7c6c48-958c-4d5d-84ad-36e1c8904f59)
 **Join with us:-**
+<br>
 ![Screenshot (61)](https://github.com/Arpita389/Retail/assets/130206432/af9fa8b7-1bb8-4328-86c4-a8f7be99831a)
-**Single-user:-<br>**
+**Single-user:-**
+<br>
 in this page if a user has made some product in own or they have some used product he/she can sold it to us , we will verify their product and tell them the price at which we can buy it from them , if he/she satisfy with the price then they can sold it to us..
 ![Screenshot (62)](https://github.com/Arpita389/Retail/assets/130206432/f5b43358-fd60-4c10-8a92-fc8a10c79568)
 ![Screenshot (63)](https://github.com/Arpita389/Retail/assets/130206432/e8e955be-987f-4b88-973e-f6a163e1695a)
-**shop-owner:-<br>**
+**shop-owner:-**
+<br>
 here if a shop-owner want to sell their product they then can register and according to the category of product they have we can give message..
 ![Screenshot (64)](https://github.com/Arpita389/Retail/assets/130206432/bda00cf8-ee9b-4814-a227-91b7ff79b407)
 ![Screenshot (65)](https://github.com/Arpita389/Retail/assets/130206432/12c3a716-79dd-4bd4-9998-ed0eb9d1c4b2)
 **About Page:-**
+<br>
  here vision,goal and mission of ouer website is shown.
 ![Screenshot (34)](https://github.com/Arpita389/Retail/assets/130206432/65ff7f03-9360-429e-b526-9041c2b9bcc3)
 **Contact Page:-**
+<br>
 Contact number,account is provided for user.
 ![Screenshot (35)](https://github.com/Arpita389/Retail/assets/130206432/f53b2f3f-c8f7-4e36-8cb3-bc47c7c5d299)
 **Sign Up Page:-**
+<br>
 here user can create an account in our website.
 ![Screenshot (53)](https://github.com/Arpita389/Retail/assets/130206432/2a719c4e-ef8a-482b-ae16-94efa13cf6d8)
 **Signin page:-**
+<br>
 ![Screenshot (54)](https://github.com/Arpita389/Retail/assets/130206432/dac9f119-349e-48e1-aaa4-d14d0bf80cee)
 **Landing page:-**
+<br>
 here people can see uniqueness of our website and can subscbscibe in our website.
 ![Screenshot (66)](https://github.com/Arpita389/Retail/assets/130206432/7cc2b0d6-3173-4d23-9d4a-4cf551946e11)
 **Menu Page:-**
+<br>
 here go to cart, wishlisted item and review rating part is present and also recommonded product also displayed.
 ![Screenshot (67)](https://github.com/Arpita389/Retail/assets/130206432/30160faf-0c0d-4709-ae99-79bf9e7a4afd)
 Dress-category:-
