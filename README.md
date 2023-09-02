@@ -70,11 +70,11 @@ user can save a product in wishlist part.
 **Payment Page:-**
 here user can pay part of price in online and rest part they can pay as cash on delivery and they dont do this the he/she will nit get the product..
 ![Screenshot (60)](https://github.com/Arpita389/Retail/assets/130206432/c0b1d6fb-c3a0-422e-b798-dad13e036bd4)
-Submit page:-
+**Submit page:-**
 ![Screenshot (44)](https://github.com/Arpita389/Retail/assets/130206432/7fccbcd4-a3ce-496c-8f3d-878c29505fe4)
-<hr>
-**Used UI**
-***Material ui*****
+<br><br>
+**Used UI***
+***Material ui****
 <br>
 Installation:<br>
 Link:-https://mui.com/material-ui/getting-started/installation/#default-installation
@@ -88,11 +88,12 @@ For icons:<br>
 Link:- https://chakra-ui.com/docs/components/icon
 <br>
 npm code:<br>
-```
-***Chakra UI****<br>
+
+**Chakra UI**
+<br>
 installation:-npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion<br>
-##***Tools****
+**Tools**
 Html,Css,Java Script,React Js
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-```
+
 <hr>
