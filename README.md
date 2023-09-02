@@ -8,7 +8,7 @@
 This is generally a website where one can buy the product . here we have provided clothing,jwellery,cosmetic,watch and electronics category.
 One can buy the product or add it in cart by clicking on add button.Here , One can buy products in new payment features i.e some amount in online payment and some during delivery.
 And products will be delivered after total payment.
-the pages we have made are-
+The pages we have made are-
 <br>
 <br/>
 **Homepage:-**
